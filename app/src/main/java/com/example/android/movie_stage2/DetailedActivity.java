@@ -20,7 +20,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.bugscript.postergrid.Utilities.NetworkUtils;
+import com.example.android.movie_stage2.Utilities.NetworkUtils;
 import com.example.android.movie_stage2.Videos.VideoActivity;
 import com.squareup.picasso.Picasso;
 import org.json.JSONArray;

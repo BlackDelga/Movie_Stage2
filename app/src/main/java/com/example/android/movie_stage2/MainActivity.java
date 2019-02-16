@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
             URL searchUrl = params[0];
             String MovieResults = null;
             try {
-                MovieResults = com.bugscript.postergrid.Utilities.NetworkUtils.getResponseFromHttpUrl(searchUrl);
+                MovieResults = com.example.android.movie_stage2.Utilities.NetworkUtils.getResponseFromHttpUrl(searchUrl);
                 try {
                     JSONObject JO = new JSONObject(MovieResults);
                     JSONArray JA = JO.getJSONArray("results");
