@@ -30,7 +30,7 @@
 
         <provider
             android:name=".data.MovieProvider"
-            android:authorities="com.bugscript.postergrid"
+            android:authorities="com.example.android.movie_stage2"
             android:enabled="true"
             android:exported="true" />
 
