@@ -5,7 +5,8 @@ import android.provider.BaseColumns;
 
 public class MovieContract {
 
-    public static final String AUTHORITY = "com.bugscript.postergrid";
+    public static final String AUTHORITY = "com.example.android.movie_stage2";
+
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY);
 
     public MovieContract(){
